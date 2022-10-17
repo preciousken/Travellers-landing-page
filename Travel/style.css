@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* position: fixed; */
+    /* background-color: red; */
+}
+
+/* .hero div >*{
+    align-items: center;
+} */
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 3px; */
+    gap: .8rem;
+}
+
+.container{
+    background-image: url(../Travel/Startup2-banner_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    /* max-width: 1100px; */
+    /* margin: 10px; */
+    padding-bottom: 20px;
+    /* position: absolute; */
+}
+
+header{
+    /* background-color: red; */
+    /* position: fixed; */
+}
+
+.sail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.sail div:nth-child(1){
+    margin-top: 120px;
+
+}
+
+.sail div:nth-child(1) h1{
+    background-color: rgb(196, 143, 19);
+    color: white;
+    margin-right: 120px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sail div:nth-child(1) p{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.sail div:nth-child(2){
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-top: 3px solid  rgb(196, 143, 19);
+    margin-top: 5px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgba(19, 18, 18, 0.855);
+    border: 1px solid white;
+    /* color: wheat; */
+}
+.btn_btn, .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(196, 143, 19);
+    color: white;
+    border: 1px solid rgb(196, 143, 19);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 230px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(174, 124, 7);
+}
+
+.container2{
+    background-color: rgba(197, 189, 189, 0.439);
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    margin-top: 0;
+}
+
+.two{
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    line-height: 25px;
+    /* padding-top: 10px; */
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.two img{
+    border: 1px solid rgb(196, 143, 19);
+    border-radius: 50%;
+    padding: 20px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.three div:nth-child(1) p{
+    line-height: 20px;
+    margin-top: 10px;
+
+}
+
+.vv{
+    border: 2px solid rgb(174, 124, 7);
+    width:  70px;
+    background-color: rgb(174, 124, 7);
+}
+
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* margin: 20px; */
+}
+.five{
+    margin: 30px;
+}
+
+.four div{
+    line-height: 50px;
+    /* margin: 20px; */
+}
+
+.four div p{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.four div h1{
+    margin-top: 0;
+}
+
+
+.container4{
+    width: 100vw;
+    background-color: rgba(175, 169, 169, 0.825);
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 80px;
+}
+.egg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    line-height: px;
+}
+.egg h1, .seven h1{
+    margin-bottom: 20px;
+}
+
+
+.six div:nth-child(1) p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.seven{
+   
+    width: 50%;
+}
+
+.egg, .seven{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    line-height: px;
+    /* margin: 10px; */
+    border-spacing:  0 20px;
+    border: none;
+
+
+}
+
+.td{
+    width: 10px;
+    line-height: 10px;
+    /* margin: 10px; */
+}
+tr{
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+.to{
+    padding-left: 10px;
+}
+
+.ten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ten div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    line-height: 30px;
+}
+
+.ten div:nth-child(1) p{
+    margin-top: 20px;
+
+}
+
+.ten div:nth-child(1) h1{
+    margin-bottom: 20px;
+
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+.math{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    /* padding: 50px; */
+}
+
+.math div{
+    padding: 20px;
+}
+
+.math div:nth-child(1){
+    border: 1px solid black;
+    border-radius: 10px;
+    /* width: 40%; */
+
+}
+
+.black{
+    background-color: rgba(0, 0, 0, 0.652);
+
+}
+
+#class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ponto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(174, 124, 7);
+    margin: 40px;
+    padding: 60px;
+    border-radius: 12px;
+
+}
+form{
+    max-width: 1200px;
+}
+.form input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+}
+.bto{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bto:hover{
+    background-color: white;
+    color: black;
+}
+.Travel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.Travel div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    line-height: 40px;
+    margin: 20px;
+    color: white;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+
+}
+.Travel h1{
+    margin-top: 30px;
+}
+.Travel div img{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    /* margin-top: 30px; */
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:769px) {
+
+.hero{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* margin: 60px; */
+        /* margin-top: 20px; */
+        
+    }
+    .img{
+        margin-top: 20px;
+    
+    }
+    .container{
+        display: flex;
+        width: 100vw;
+    }
+    .sail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: 20px; */
+    
+    }
+    .sail div:nth-child(1){
+        margin-top: 10px;
+    }
+    .sail div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.two{
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    /* margin: 20px; */
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.egg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.egg img{
+    width: 400px;
+}
+.seven{
+    width: 90%;
+}
+
+.terms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+    width: 100%;
+}
+.math{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* margin: 30px; */
+    
+}
+.ponto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Travel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
